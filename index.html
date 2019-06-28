@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Portfolio</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    #container {
+      width: 60%;
+      margin: 0 auto;
+      background-color: white;
+    }
+    #container div{
+      max-width: 1280px;
+      margin: 30px auto;
+      text-align: center;
+    }
+    
+    #container img{
+      width:80%;
+    }
+    div.draw img{
+      border: 2px solid black;
+    }
+    div.page:last-child img{
+        border: 1px solid black;
+    }
+    
+    h1{
+      margin:50px 0;
+      font-size: 40px;
+      text-align: center;
+      text-decoration: underline;
+    }
+    h2{
+      margin: 40px 0;
+      font-size: 32px;
+      text-align: center;
+    }
+    .page:hover{
+      opacity: 0.8;
+    }
+
+  </style>
+</head>
+
+<body>
+  <div id="container">
+    <h1>PORTFOLIO</h1>
+    <h2>After Effects</h2>
+    <div>
+      <video width="80%" controls>
+        <source src="img/reklama_msieradzki.mp4" type="video/mp4">
+      </video>
+    </div>
+    <h2>Adobe Illustrator</h2>
+    <div class="draw"><img src="img/papryka.png" alt="papryczki"></div>
+    <div class="draw"><img src="img/logo.png" alt="logo"></div>
+    <div class="draw"><img src="img/logo3d.png" alt="logo 3d"></div>
+    <h2>HTML, CSS and JavaScript</h2>
+    <div class="page">
+      <a href="https://siara26.github.io/diagnostyka/" target="_blank">
+        <img src="img/stacja_diagnostyczna.png" alt="stacja diagnostyczna">
+      </a>
+    </div>
+    <div class="page">
+      <a href="https://siara26.github.io/ducks/" target="_blank">
+        <img src="img/gra_w_kaczki.png" alt="gra w kaczki">
+      </a>
+    </div>
+    <div class="page">
+      <a href="https://siara26.github.io/calc/" target="_blank">
+        <img src="img/kalkulator.png" alt="kalkulator">
+      </a>
+    </div>
+
+  </div>
+</body>
+
+</html>
